@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <style>
+      * {
+      box-sizing: border-box;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+	.fixed-size-square {
+		display: table;
+		width: 200px;
+		height: 200px;
+	}
+	header{
+		margin-left:20%;
+		margin-right:5%;
+	}
+	.logo{
+		float: left;
+		max-width:80px;
+		max-height:80px;
+	}
+	.light_blue{
+		background: #02b3e4;
+	}
+	.dark_gray{
+		background: #2d3c49;
+	}
+	.light_gray{
+		background: #7d97ad;
+	}
+    .borded{
+      border: 1px solid #2e3d49;
+    }
+    .left {
+		float: left;
+    }
+    .right {
+		float: right;
+    }
+    .clear-left {
+      clear: left;
+    }
+    .clear-right {
+      clear: right;
+    }
+    .clear-both {
+      clear: both;
+    }
+    .wide {
+      width: 40%;
+    }
+	.header{
+		width: 100%;
+	}
+	.body_content{
+		width: 100%;
+	}
+	.wide_body_left{
+		width: 30%;
+	}
+	.wide_body_right{
+		width: 70%;
+	}
+	.theme-header-picture{
+		width: 100%;
+		height: 100%;
+	}
+	.featured_work{
+		width: 100%;
+		height: 100%;
+	}
+	.inline_blocked{
+		display:inline-block;
+	}
+	.square_mock{
+		width:75px;
+		height:75px;
+		margin:10px;
+	}
+	
+	.square_mock_color_background{
+		width:75px;
+		height:75px;
+	}
+	.square_1_color{
+		background-color: #02b3e4;
+	}
+	.square_2_color{
+		background-color: #2d3c49;
+	}
+	.square_3_color{
+		background-color: #7d97ad;
+	}
+
+  </style>
+</head>
+<body>
+	<header>
+		<img class = "logo" src="img/udacity.png"/>
+		<div class = "inline_blocked right">
+			<h1 style = "margin-bottom:0px"> JANE DOETTE </h1>
+			<h4 style = "float:right;margin-top:0px"> FRONT-END NNJA </h4>
+		</div>
+		<hr class = "clear-both"/>
+	</header>
+	
+	<div class = "body_content borded clear-both">
+		<div class = "left wide_body_left borded">
+			<div align="center">
+				<div class = "square_mock_color_background borded square_1_color">
+				</div>
+				<p>#02b3e4</p>
+			</div>
+			<div align="center" >
+				<div class = "square_mock_color_background borded square_2_color">
+				</div>
+				<p>#2d3c49</p>
+			</div>
+			<div align="center">
+				<div class = "square_mock_color_background borded square_3_color">
+				</div>
+				<p>#2d3c49</p>
+			</div>
+		</div>
+
+		<div class = "right wide_body_right borded">
+			<div class = "theme-header-picture borded"> theme-header-picture</div>
+			<div class = "featured_work borded">
+				<h2>Featured_Work</h2>
+				<div class = "borded">
+					<div class = "left square_mock borded">
+						img
+						APPIFY
+						LINK
+					</div>
+					<div class = "left square_mock borded">
+						img
+						SUNFLOWER
+						LINK
+					</div>
+					<div class = "left square_mock borded">
+						img
+						BOKEH
+						LINK
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
