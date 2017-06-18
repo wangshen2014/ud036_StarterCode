@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <style>
+      * {
+      box-sizing: border-box;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+	header{
+		margin-left:20%;
+		margin-right:5%;
+	}
+	.logo{
+		float: left;
+		max-width:80px;
+		max-height:80px;
+	}
+	.light_blue{
+		background: #02b3e4;
+	}
+	.dark_gray{
+		background: #2d3c49;
+	}
+	.light_gray{
+		background: #7d97ad;
+	}
+    .borded{
+      border: 1px solid #2e3d49;
+    }
+    .left {
+		float: left;
+    }
+    .right {
+		float: right;
+    }
+    .clear-left {
+      clear: left;
+    }
+    .clear-right {
+      clear: right;
+    }
+    .clear-both {
+      clear: both;
+    }
+    .wide {
+      width: 40%;
+    }
+	.body_content{
+		width: 100%;
+	}
+	.wide_body_left{
+		width: 20%;
+	}
+	.wide_body_right{
+		width: 75%;
+	}
+	.theme-header-picture{
+		width: 100%;
+		height: 100%;
+	}
+	.featured_work{
+		width: 100%;
+		height: 100%;
+	}
+	.inline_blocked{
+		display:inline-block;
+	}
+	.square_mock{
+		width:75px;
+		height:75px;
+		margin:10px;
+	}
+	
+	.square_mock_color_background{
+		width:75px;
+		height:75px;
+	}
+	.square_1_color{
+		background-color: #02b3e4;
+	}
+	.square_2_color{
+		background-color: #2d3c49;
+	}
+	.square_3_color{
+		background-color: #7d97ad;
+	}
+	#display_theme img{
+		width:100%;
+		height:100%;
+		max-height:280px;
+	}
+	#display_image img{
+		width:100%;
+		height:100%;
+		max-width:250px;
+		max-height:250px;
+	}
+
+	#display_image{
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:space-between;
+	}
+	#img1{
+		text-align:left;
+	}
+	#img2{
+		text-align:center;
+	}
+	#img3{
+		text-align:right;
+	}
+	.text_need_center{
+		text-align:center;
+	}
+  </style>
+</head>
+<body>
+	<header>
+		<img class = "logo" src="img/udacity.png"/>
+		<div class = "inline_blocked right">
+			<h1 style = "margin-bottom:0px"> JANE DOETTE </h1>
+			<h4 style = "float:right;margin-top:0px"> FRONT-END NNJA </h4>
+		</div>
+		<hr class = "clear-both"/>
+	</header>
+	
+	<div class = "body_content clear-both">
+		<div class = "left wide_body_left">
+			<div align="center">
+				<div class = "square_mock_color_background borded square_1_color">
+				</div>
+				<p>#02b3e4</p>
+			</div>
+			<div align="center" >
+				<div class = "square_mock_color_background borded square_2_color">
+				</div>
+				<p>#2d3c49</p>
+			</div>
+			<div align="center">
+				<div class = "square_mock_color_background borded square_3_color">
+				</div>
+				<p>#7d97ad</p>
+			</div>
+		</div>
+
+<div class = "left wide_body_right">
+	<div id = "display_theme" class = "theme-header-picture"><img src = "img/theme_summer.jpg"/></div>
+				<div class = "featured_work">
+		<div><h2>Featured_Work</h2></div>
+		<div id = "display_image">
+			<div id = "img1">
+				<img src="img/lv.jpg"/>
+				<div class = "text_need_center">
+					<h2>APPIFY</h2>
+					<p>https://github.com/udacity/Appify/</p>
+				</div>
+			</div>
+			<div  id = "img2">
+				<img src="img/sunflower.jpg"/>
+				<div class = "text_need_center">
+					<h2>SUNFLOWER</h2>
+					<p>https://github.com/udacity/Sunflower/</p>
+				</div>
+			</div>
+			<div id = "img3">
+				<img src="img/hand_by_hand.jpg"/>
+				<div class = "text_need_center">
+					<h2>BOKEH</h2>
+					<p>https://github.com/udacity/Bokeh/</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	</div>
+</body>
+</html>
